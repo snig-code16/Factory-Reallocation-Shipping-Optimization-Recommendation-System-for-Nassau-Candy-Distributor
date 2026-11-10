@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from src.preprocess import load_and_preprocess, get_feature_matrix
 
-MODELS_DIR = "models"
+MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
 
 def evaluate_model(name, model, X_test, y_test):
     preds = model.predict(X_test)

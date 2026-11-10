@@ -17,7 +17,6 @@ from src.utils import build_geospatial_network_map
 
 st.set_page_config(
     page_title="Nassau Candy | Factory Reallocation & Optimization",
-    page_icon="🍬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -49,54 +48,69 @@ try {
 st.markdown("""
 <style>
     .metric-card {
-        background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
-        border: 1px solid #30363d;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
         border-radius: 10px;
         padding: 16px 20px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
     .metric-title {
-        color: #8b949e;
-        font-size: 0.85rem;
+        color: #64748b;
+        font-size: 0.8rem;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
     .metric-value {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         font-weight: 700;
-        color: #58a6ff;
+        color: #0f172a;
         margin-top: 4px;
     }
     .metric-subtitle {
-        color: #7ee787;
+        color: #15803d;
         font-size: 0.82rem;
         font-weight: 500;
         margin-top: 2px;
     }
     .alert-card-warning {
-        background: rgba(210, 153, 34, 0.12);
-        border-left: 4px solid #d29922;
-        border-radius: 8px;
-        padding: 14px 18px;
-        margin-bottom: 12px;
-        color: #e6edf3;
+        background: #fffbeb !important;
+        border-left: 5px solid #d97706 !important;
+        border-radius: 8px !important;
+        padding: 14px 18px !important;
+        margin-bottom: 12px !important;
+        color: #78350f !important;
+        font-size: 0.95rem !important;
+        line-height: 1.5 !important;
+    }
+    .alert-card-warning b, .alert-card-warning strong {
+        color: #451a03 !important;
     }
     .alert-card-danger {
-        background: rgba(248, 81, 73, 0.12);
-        border-left: 4px solid #f85149;
-        border-radius: 8px;
-        padding: 14px 18px;
-        margin-bottom: 12px;
-        color: #e6edf3;
+        background: #fef2f2 !important;
+        border-left: 5px solid #dc2626 !important;
+        border-radius: 8px !important;
+        padding: 14px 18px !important;
+        margin-bottom: 12px !important;
+        color: #991b1b !important;
+        font-size: 0.95rem !important;
+        line-height: 1.5 !important;
+    }
+    .alert-card-danger b, .alert-card-danger strong {
+        color: #7f1d1d !important;
     }
     .alert-card-success {
-        background: rgba(46, 160, 67, 0.12);
-        border-left: 4px solid #2ea043;
-        border-radius: 8px;
-        padding: 14px 18px;
-        margin-bottom: 12px;
-        color: #e6edf3;
+        background: #f0fdf4 !important;
+        border-left: 5px solid #16a34a !important;
+        border-radius: 8px !important;
+        padding: 14px 18px !important;
+        margin-bottom: 12px !important;
+        color: #14532d !important;
+        font-size: 0.95rem !important;
+        line-height: 1.5 !important;
+    }
+    .alert-card-success b, .alert-card-success strong {
+        color: #052e16 !important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -128,9 +142,9 @@ benchmarks_df = get_model_benchmarks()
 slow_routes, congested_lanes = get_cluster_data()
 
 with st.sidebar:
-    st.markdown("## 🍬 **Decision Intelligence**")
+    st.markdown("## **Decision Intelligence**")
     st.caption("Nassau Candy Logistics Optimizer")
-    st.markdown("---")
+    st.markdown('<div style="border-top:1px solid #e2e8f0;margin:12px 0 16px 0;"></div>', unsafe_allow_html=True)
 
     all_products = sorted(list(PRODUCT_FACTORY.keys()))
     all_regions = sorted(list(REGION_COORDS.keys()))
@@ -148,8 +162,8 @@ with st.sidebar:
     sel_cost = st.number_input("Manufacture Cost ($)", value=round(default_cost, 2), min_value=0.5, step=0.25)
     sel_sales = st.number_input("Gross Revenue ($)", value=round(default_sales, 2), min_value=1.0, step=0.5)
 
-    st.markdown("---")
-    st.markdown("### ⚖️ **Optimization Priority**")
+    st.markdown('<div style="border-top:1px solid #e2e8f0;margin:16px 0;"></div>', unsafe_allow_html=True)
+    st.markdown("### **Optimization Priority**")
     priority_slider = st.slider(
         "Priority Weight", min_value=0, max_value=100, value=50,
         help="0% = Speed (Min Lead Time) | 100% = Margin (Freight Savings)"
@@ -166,7 +180,7 @@ ranked_df = opt_engine.rank_factories(sim_df, priority_weight, risk_tolerance)
 best_option = ranked_df.iloc[0]
 best_factory = best_option["Factory"]
 
-st.title("🍬 Nassau Candy Distributor")
+st.title("Nassau Candy Distributor")
 st.markdown("### Factory Reallocation & Shipping Optimization Recommendation System")
 st.markdown(
     "Automated decision intelligence platform predicting transit times, evaluating reallocation trade-offs, "
@@ -180,18 +194,18 @@ with kpi1:
 with kpi2:
     st.markdown(f"""<div class="metric-card"><div class="metric-title">Predicted Lead Time</div><div class="metric-value">{curr_lt:.0f} d</div><div class="metric-subtitle">Transit: {curr_dist:,.0f} mi</div></div>""", unsafe_allow_html=True)
 with kpi3:
-    st.markdown(f"""<div class="metric-card"><div class="metric-title">Recommended Hub</div><div class="metric-value">{best_factory}</div><div class="metric-subtitle">Rank #1 Candidate</div></div>""", unsafe_allow_html=True)
+    st.markdown(f"""<div class="metric-card"><div class="metric-title">Recommended Hub</div><div class="metric-value">{best_factory}</div><div class="metric-subtitle">Rank 1 Candidate</div></div>""", unsafe_allow_html=True)
 with kpi4:
-    lt_color = "#7ee787" if best_option["Lead_Time_Delta_Days"] >= 0 else "#f85149"
-    st.markdown(f"""<div class="metric-card"><div class="metric-title">Lead Time Gain</div><div class="metric-value" style="color: {lt_color};">{best_option['Lead_Time_Reduction_Pct']:+.1f}%</div><div class="metric-subtitle">{best_option['Lead_Time_Delta_Days']:+.1f} days delta</div></div>""", unsafe_allow_html=True)
+    lt_color = "#15803d" if best_option["Lead_Time_Delta_Days"] >= 0 else "#dc2626"
+    st.markdown(f"""<div class="metric-card"><div class="metric-title">Lead Time Gain</div><div class="metric-value" style="color: {lt_color};">{best_option['Lead_Time_Reduction_Pct']:+.1f}%</div><div class="metric-subtitle" style="color: {lt_color};">{best_option['Lead_Time_Delta_Days']:+.1f} days delta</div></div>""", unsafe_allow_html=True)
 with kpi5:
-    st.markdown(f"""<div class="metric-card"><div class="metric-title">Reliability Score</div><div class="metric-value">{best_option['Scenario_Confidence_Score']:.1f}%</div><div class="metric-subtitle">{best_option['Risk_Classification'][:12]}</div></div>""", unsafe_allow_html=True)
+    st.markdown(f"""<div class="metric-card"><div class="metric-title">Reliability Score</div><div class="metric-value">{best_option['Scenario_Confidence_Score']:.1f}%</div><div class="metric-subtitle" style="color:#64748b;">{best_option['Risk_Classification'][:12]}</div></div>""", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
 tab_sim, tab_whatif, tab_recs, tab_risk, tab_clusters, tab_geo, tab_models = st.tabs([
-    "🏭 Factory Simulator", "🔄 What-If Scenario Analysis", "🏆 Recommendation Engine",
-    "⚠️ Risk & Impact Panel", "🧭 Route & Lane Clustering", "🗺️ Geospatial Network Map", "🤖 Predictive ML Evaluation"
+    "Factory Simulator", "What-If Scenario Analysis", "Recommendation Engine",
+    "Risk and Impact Panel", "Route and Lane Clustering", "Geospatial Network Map", "Predictive ML Evaluation"
 ])
 
 with tab_sim:
@@ -200,17 +214,40 @@ with tab_sim:
     c1, c2 = st.columns([3, 2])
     with c1:
         chart_df = ranked_df.sort_values("Predicted_Lead_Time_Days")
-        colors = ["#2ea043" if f == best_factory else ("#d29922" if f == current_factory else "#58a6ff") for f in chart_df["Factory"]]
+        colors = ["#16a34a" if f == best_factory else ("#d97706" if f == current_factory else "#2563eb") for f in chart_df["Factory"]]
         fig_lt = go.Figure(go.Bar(
-            x=chart_df["Factory"], y=chart_df["Predicted_Lead_Time_Days"], marker_color=colors,
-            text=[f"{v:.0f} d ({d:,.0f} mi)" for v, d in zip(chart_df["Predicted_Lead_Time_Days"], chart_df["Distance_Miles"])], textposition="auto"
+            x=chart_df["Factory"],
+            y=chart_df["Predicted_Lead_Time_Days"],
+            marker_color=colors,
+            text=[f"{v:.0f} d ({d:,.0f} mi)" for v, d in zip(chart_df["Predicted_Lead_Time_Days"], chart_df["Distance_Miles"])],
+            textposition="inside",
+            textfont=dict(color="#ffffff", size=11, family="Arial")
         ))
-        fig_lt.update_layout(paper_bgcolor="#161b22", plot_bgcolor="#161b22", font=dict(color="#e6edf3"), xaxis_title="Manufacturing Plant", yaxis_title="Lead Time (Days)", height=380, margin=dict(l=20, r=20, t=40, b=20))
+        fig_lt.update_layout(
+            paper_bgcolor="#ffffff",
+            plot_bgcolor="#ffffff",
+            font=dict(color="#1e293b", size=12),
+            xaxis=dict(
+                title="Manufacturing Plant",
+                color="#1e293b",
+                showgrid=False,
+                linecolor="#cbd5e1"
+            ),
+            yaxis=dict(
+                title="Lead Time (Days)",
+                color="#1e293b",
+                showgrid=True,
+                gridcolor="#f1f5f9",
+                linecolor="#cbd5e1"
+            ),
+            height=380,
+            margin=dict(l=20, r=20, t=40, b=20)
+        )
         st.plotly_chart(fig_lt, width="stretch")
     with c2:
         st.markdown("#### **Performance Matrix**")
         disp = ranked_df[["Rank", "Factory", "Predicted_Lead_Time_Days", "Lead_Time_Reduction_Pct", "Distance_Miles", "Est_Freight_Delta_USD", "Composite_Score"]].copy()
-        disp.columns = ["Rank", "Factory", "Lead Time (d)", "Gain (%)", "Dist (mi)", "Freight Δ ($)", "Score"]
+        disp.columns = ["Rank", "Factory", "Lead Time (d)", "Gain (%)", "Dist (mi)", "Freight Delta ($)", "Score"]
         st.dataframe(disp.set_index("Rank"), width="stretch")
         if best_factory != current_factory:
             st.markdown(f"""<div class="alert-card-success"><b>Reallocation Opportunity:</b> Transferring <b>{sel_product}</b> to <b>{best_factory}</b> shortens lead time by <b>{best_option['Lead_Time_Delta_Days']:.1f} days</b> ({best_option['Lead_Time_Reduction_Pct']:.1f}% gain) with <b>${best_option['Est_Freight_Delta_USD']:.2f}</b> estimated freight savings.</div>""", unsafe_allow_html=True)
@@ -224,11 +261,32 @@ with tab_whatif:
     alt_row = sim_df[sim_df["Factory"] == chosen_alt_factory].iloc[0]
     col_b, col_a = st.columns(2)
     with col_b:
-        st.markdown(f"""<div style="background:#161b22;border:2px solid #d29922;border-radius:12px;padding:20px;"><h4 style="color:#d29922;margin-top:0;">📍 CURRENT BASELINE</h4><h3>{current_factory}</h3><p><b>Origin:</b> {FACTORY_DETAILS[current_factory]['city']}, {FACTORY_DETAILS[current_factory]['state']}</p><hr style="border-color:#30363d;"><p><b>Lead Time:</b> {curr_lt:.1f} Days</p><p><b>Distance:</b> {curr_dist:,.0f} Miles</p><p><b>Est. Freight:</b> ${curr_dist * sel_units * BASE_FREIGHT_COST_PER_MILE_UNIT:.2f}</p></div>""", unsafe_allow_html=True)
+        st.markdown(f"""
+        <div style="background:#ffffff;border:2px solid #d97706;border-radius:12px;padding:20px;color:#1e293b;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
+            <h4 style="color:#b45309;margin-top:0;font-weight:700;">CURRENT BASELINE</h4>
+            <h3 style="color:#0f172a;margin-top:4px;">{current_factory}</h3>
+            <p style="color:#334155;margin-bottom:8px;"><b>Origin:</b> {FACTORY_DETAILS[current_factory]['city']}, {FACTORY_DETAILS[current_factory]['state']}</p>
+            <div style="border-top:1px solid #e2e8f0;margin:12px 0;"></div>
+            <p style="color:#334155;margin-bottom:6px;"><b>Lead Time:</b> {curr_lt:.1f} Days</p>
+            <p style="color:#334155;margin-bottom:6px;"><b>Distance:</b> {curr_dist:,.0f} Miles</p>
+            <p style="color:#334155;margin-bottom:0;"><b>Est. Freight:</b> ${curr_dist * sel_units * BASE_FREIGHT_COST_PER_MILE_UNIT:.2f}</p>
+        </div>
+        """, unsafe_allow_html=True)
     with col_a:
         delta_lt = curr_lt - alt_row["Predicted_Lead_Time_Days"]
-        border_col = "#2ea043" if delta_lt >= 0 else "#f85149"
-        st.markdown(f"""<div style="background:#161b22;border:2px solid {border_col};border-radius:12px;padding:20px;"><h4 style="color:{border_col};margin-top:0;">🔄 SIMULATED ALTERNATIVE</h4><h3>{chosen_alt_factory}</h3><p><b>Origin:</b> {FACTORY_DETAILS[chosen_alt_factory]['city']}, {FACTORY_DETAILS[chosen_alt_factory]['state']}</p><hr style="border-color:#30363d;"><p><b>Lead Time:</b> {alt_row['Predicted_Lead_Time_Days']:.1f} Days ({alt_row['Lead_Time_Reduction_Pct']:+.1f}%)</p><p><b>Distance:</b> {alt_row['Distance_Miles']:,.0f} Miles ({alt_row['Distance_Delta_Miles']:+.0f} mi)</p><p><b>Freight Δ:</b> {alt_row['Est_Freight_Delta_USD']:+.2f} USD</p></div>""", unsafe_allow_html=True)
+        border_col = "#16a34a" if delta_lt >= 0 else "#dc2626"
+        title_col = "#15803d" if delta_lt >= 0 else "#b91c1c"
+        st.markdown(f"""
+        <div style="background:#ffffff;border:2px solid {border_col};border-radius:12px;padding:20px;color:#1e293b;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
+            <h4 style="color:{title_col};margin-top:0;font-weight:700;">SIMULATED ALTERNATIVE</h4>
+            <h3 style="color:#0f172a;margin-top:4px;">{chosen_alt_factory}</h3>
+            <p style="color:#334155;margin-bottom:8px;"><b>Origin:</b> {FACTORY_DETAILS[chosen_alt_factory]['city']}, {FACTORY_DETAILS[chosen_alt_factory]['state']}</p>
+            <div style="border-top:1px solid #e2e8f0;margin:12px 0;"></div>
+            <p style="color:#334155;margin-bottom:6px;"><b>Lead Time:</b> {alt_row['Predicted_Lead_Time_Days']:.1f} Days ({alt_row['Lead_Time_Reduction_Pct']:+.1f}%)</p>
+            <p style="color:#334155;margin-bottom:6px;"><b>Distance:</b> {alt_row['Distance_Miles']:,.0f} Miles ({alt_row['Distance_Delta_Miles']:+.0f} mi)</p>
+            <p style="color:#334155;margin-bottom:0;"><b>Freight Delta:</b> {alt_row['Est_Freight_Delta_USD']:+.2f} USD</p>
+        </div>
+        """, unsafe_allow_html=True)
 
 with tab_recs:
     st.subheader("Enterprise Reassignment Recommendations")
@@ -241,13 +299,13 @@ with tab_recs:
     r4.metric("Avg Confidence", f"{top_recs['Confidence_Score'].mean():.1f}%" if not top_recs.empty else "0.0%")
     if not top_recs.empty:
         st.dataframe(top_recs[["Product", "Destination_Region", "Current_Factory", "Recommended_Factory", "Days_Saved", "Lead_Time_Reduction_Pct", "Miles_Saved", "Est_Freight_Savings_USD", "Confidence_Score", "Risk_Level"]], width="stretch")
-        st.download_button("📥 Download Recommendations CSV", top_recs.to_csv(index=False).encode('utf-8'), "recommendations.csv", "text/csv")
+        st.download_button("Download Recommendations CSV", top_recs.to_csv(index=False).encode('utf-8'), "recommendations.csv", "text/csv")
 
 with tab_risk:
-    st.subheader("Risk & Operational Impact Assessment")
+    st.subheader("Risk and Operational Impact Assessment")
     c_rl, c_rr = st.columns(2)
     with c_rl:
-        st.markdown("#### 🚨 **Identified Reassignment Warnings**")
+        st.markdown("#### **Identified Reassignment Warnings**")
         high_risks = ranked_df[ranked_df["Risk_Classification"].str.contains("HIGH|MODERATE")]
         if not high_risks.empty:
             for _, r in high_risks.iterrows():
@@ -255,7 +313,7 @@ with tab_risk:
         else:
             st.markdown("""<div class="alert-card-success"><b>Zero High-Risk Anomalies:</b> Candidate reassignments operate within tolerance.</div>""", unsafe_allow_html=True)
     with c_rr:
-        st.markdown("#### 🏭 **Plant Capacity & Load**")
+        st.markdown("#### **Plant Capacity and Load**")
         fac_loads = []
         for fac_name, meta in FACTORY_DETAILS.items():
             curr_products = [p for p, f in PRODUCT_FACTORY.items() if f == fac_name]
@@ -265,13 +323,13 @@ with tab_risk:
         st.dataframe(pd.DataFrame(fac_loads).set_index("Factory"), width="stretch")
 
 with tab_clusters:
-    st.subheader("Route & Product Clustering Analysis")
+    st.subheader("Route and Product Clustering Analysis")
     cl1, cl2 = st.columns(2)
     with cl1:
-        st.markdown("#### 🐢 **Slow Routes (Severe Bottlenecks)**")
+        st.markdown("#### **Slow Routes (Severe Bottlenecks)**")
         st.dataframe(slow_routes[["Factory", "Region", "Product Name", "Ship Mode", "Avg_Lead_Time", "Avg_Distance", "Order_Count"]].head(12), width="stretch")
     with cl2:
-        st.markdown("#### 🚦 **Congested High-Volume Lanes**")
+        st.markdown("#### **Congested High-Volume Lanes**")
         st.dataframe(congested_lanes[["Factory", "Region", "Product Name", "Total_Units", "Total_Sales", "Avg_Profit_Margin"]].head(12), width="stretch")
 
 with tab_geo:
