@@ -1,0 +1,155 @@
+Factory,Region,Product Name,Ship Mode,Order_Count,Avg_Lead_Time,Std_Lead_Time,Avg_Distance,Total_Units,Total_Sales,Avg_Profit_Margin,Cluster,Cluster_Label
+Lot's O' Nuts,Atlantic,Wonka Bar - Fudge Mallows,First Class,109,1338.5045871559632,249.40661519090736,2009.298374828501,382,1375.2,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Fudge Mallows,Same Day,22,1368.8636363636363,201.36635540951013,1949.2510462554148,75,270.0,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Fudge Mallows,Second Class,93,1339.3010752688172,263.6857807639466,2012.3757528503718,359,1292.4,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Fudge Mallows,Standard Class,324,1306.898148148148,263.9729418942163,2026.5055343140723,1192,4291.2,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Nutty Crunch Surprise,First Class,79,1354.5443037974683,233.68221888339193,2001.4487604583728,345,1204.05,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Nutty Crunch Surprise,Same Day,33,1369.0,278.31468250884643,1974.1183378504807,109,380.41,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Nutty Crunch Surprise,Second Class,91,1328.9120879120878,249.28549667451304,2042.9300399428105,355,1238.95,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar - Nutty Crunch Surprise,Standard Class,287,1371.0522648083625,244.4930406150418,2013.3307039291071,1048,3657.52,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar -Scrumdiddlyumptious,First Class,112,1327.044642857143,269.6948689044431,1992.4173801557422,415,1494.0,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar -Scrumdiddlyumptious,Same Day,34,1237.0294117647059,275.37142798619954,1976.5509815393054,120,432.0,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar -Scrumdiddlyumptious,Second Class,120,1327.2333333333333,253.76846236874505,2024.1646085308878,435,1566.0,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Atlantic,Wonka Bar -Scrumdiddlyumptious,Standard Class,357,1297.7310924369747,255.20895924488926,2029.356348370117,1379,4964.4,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Fudge Mallows,First Class,39,1299.5384615384614,282.89898198490783,1768.1521465729322,140,504.0,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Fudge Mallows,Same Day,22,1236.0,249.87768436348443,1699.3330165309433,90,324.0,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Fudge Mallows,Second Class,58,1367.0862068965516,270.2159165571091,1647.5590753710937,210,756.0,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Fudge Mallows,Standard Class,172,1293.4186046511627,277.5118337971497,1652.8523762746584,642,2311.2000000000003,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Nutty Crunch Surprise,First Class,40,1326.175,268.595386055413,1595.7930979098626,133,464.17,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Nutty Crunch Surprise,Same Day,15,1439.8666666666666,234.0545927362939,1584.1662973866116,68,237.32,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Nutty Crunch Surprise,Second Class,65,1328.676923076923,283.2944089024432,1652.8673688597228,238,830.62,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar - Nutty Crunch Surprise,Standard Class,176,1309.5738636363637,255.2823315443145,1672.671903258226,649,2265.01,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar -Scrumdiddlyumptious,First Class,47,1372.3829787234042,282.0194684300059,1709.8055647782799,177,637.2,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar -Scrumdiddlyumptious,Same Day,12,1299.6666666666667,188.4348613439057,1775.7866215206748,41,147.6,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar -Scrumdiddlyumptious,Second Class,60,1321.2166666666667,264.7980421138809,1668.7866687447424,230,828.0,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Gulf,Wonka Bar -Scrumdiddlyumptious,Standard Class,191,1299.151832460733,259.9542327821597,1657.962310009754,755,2718.0,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Interior,Wonka Bar - Fudge Mallows,First Class,54,1346.111111111111,259.58433149408836,1076.5398844333981,203,730.8000000000001,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar - Fudge Mallows,Same Day,24,1391.0833333333333,232.9681666379909,1100.0098317469517,79,284.4,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar - Fudge Mallows,Second Class,74,1302.0405405405406,261.9102868043759,1192.7164851607363,292,1051.2,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar - Fudge Mallows,Standard Class,258,1299.6782945736434,262.6062304852782,1148.637912350763,1021,3675.6,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Interior,Wonka Bar - Nutty Crunch Surprise,First Class,55,1351.3272727272727,269.6330877696615,1128.407419851879,207,722.4300000000001,71.34670487106017,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar - Nutty Crunch Surprise,Same Day,25,1430.2,213.21585306913764,1290.35173657665,76,265.24,71.34670487106017,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar - Nutty Crunch Surprise,Second Class,106,1317.377358490566,245.45454250198955,1187.2328057474822,408,1423.92,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Interior,Wonka Bar - Nutty Crunch Surprise,Standard Class,266,1320.9436090225563,267.30223268897464,1136.185047339638,1003,3500.4700000000003,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Interior,Wonka Bar -Scrumdiddlyumptious,First Class,56,1363.0535714285713,272.04674863258055,1178.6071815061891,235,846.0,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar -Scrumdiddlyumptious,Same Day,15,1415.4,185.5958743383823,1043.1038599256894,57,205.20000000000002,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar -Scrumdiddlyumptious,Second Class,95,1287.8315789473684,255.06877056112862,1101.7624915817933,335,1206.0,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Interior,Wonka Bar -Scrumdiddlyumptious,Standard Class,293,1332.8395904436861,252.64325558307027,1116.8345998804546,1096,3945.6,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Pacific,Wonka Bar - Fudge Mallows,First Class,74,1345.472972972973,256.7566527114502,587.2736528891237,269,968.4,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Fudge Mallows,Same Day,30,1281.5,244.41058586476703,540.7752595233883,113,406.8,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Fudge Mallows,Second Class,121,1329.8181818181818,275.2680511792095,609.0582033922542,480,1728.0,66.66666666666666,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Fudge Mallows,Standard Class,344,1305.218023255814,266.61642252262527,639.9625457364165,1367,4921.2,66.66666666666666,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Pacific,Wonka Bar - Nutty Crunch Surprise,First Class,112,1304.0089285714287,284.06767039035594,593.4335530014205,374,1305.26,71.34670487106017,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Nutty Crunch Surprise,Same Day,30,1354.6666666666667,266.09828795122826,570.2453621684243,101,352.49,71.34670487106017,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Nutty Crunch Surprise,Second Class,93,1311.5483870967741,260.75411189925694,641.5036390869082,317,1106.33,71.34670487106017,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar - Nutty Crunch Surprise,Standard Class,337,1298.160237388724,269.3077288511995,613.3525228462618,1324,4620.76,71.34670487106017,1,Consistently Slow Route (Severe Bottleneck)
+Lot's O' Nuts,Pacific,Wonka Bar -Scrumdiddlyumptious,First Class,113,1361.8053097345132,260.86657982876034,558.0948760863913,444,1598.4,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar -Scrumdiddlyumptious,Same Day,43,1354.2558139534883,250.24274814888707,617.9710507770716,140,504.0,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar -Scrumdiddlyumptious,Second Class,144,1287.861111111111,262.25367026599963,638.698941598724,488,1756.8,69.44444444444444,0,Congested High-Volume Lane
+Lot's O' Nuts,Pacific,Wonka Bar -Scrumdiddlyumptious,Standard Class,372,1336.1639784946237,265.8646626776086,612.5352383533542,1396,5025.6,69.44444444444444,1,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Atlantic,Lickable Wallpaper,First Class,9,1515.111111111111,258.8606982744022,713.5262217179773,35,700.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Atlantic,Lickable Wallpaper,Same Day,2,1269.0,0.0,751.4061085902331,7,140.0,50.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Atlantic,Lickable Wallpaper,Second Class,5,1345.8,305.7428658202837,797.7553376060591,21,420.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Atlantic,Lickable Wallpaper,Standard Class,19,1351.1052631578948,287.8654961256196,736.8660035870925,76,1520.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Atlantic,Wonka Gum,First Class,8,1226.0,305.22216732827815,716.9731486155816,38,47.5,52.0,0,Congested High-Volume Lane
+Secret Factory,Atlantic,Wonka Gum,Same Day,1,1269.0,0.0,698.0572795472219,7,8.75,52.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Atlantic,Wonka Gum,Second Class,3,1516.0,210.44476710053877,784.274919734385,9,11.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Atlantic,Wonka Gum,Standard Class,25,1317.88,285.4896845772189,717.5425641310296,115,143.75,52.0,0,Congested High-Volume Lane
+Secret Factory,Gulf,Everlasting Gobstopper,Standard Class,1,1273.0,0.0,1070.1680746937993,4,40.0,80.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Gulf,Lickable Wallpaper,First Class,1,906.0,0.0,706.2452439580131,4,80.0,50.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Gulf,Lickable Wallpaper,Second Class,3,1394.3333333333333,422.90936775310774,557.3649919337771,9,180.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Gulf,Lickable Wallpaper,Standard Class,6,1334.3333333333333,275.160801471915,598.1595823837608,24,480.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Gulf,Wonka Gum,First Class,4,1180.75,350.15746457843795,681.5027702203329,23,28.75,52.0,0,Congested High-Volume Lane
+Secret Factory,Gulf,Wonka Gum,Same Day,1,1635.0,0.0,705.9603548555416,4,5.0,52.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Gulf,Wonka Gum,Second Class,9,1435.6666666666667,265.72542219366215,808.1335107768623,36,45.0,52.0,0,Congested High-Volume Lane
+Secret Factory,Gulf,Wonka Gum,Standard Class,12,1304.75,328.99519891495515,724.9541513179402,57,71.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Everlasting Gobstopper,Standard Class,1,1641.0,0.0,816.3534738129944,3,30.0,80.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Interior,Lickable Wallpaper,First Class,1,1637.0,0.0,112.01138742490504,9,180.0,50.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Interior,Lickable Wallpaper,Same Day,1,1635.0,0.0,112.01138742490504,4,80.0,50.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Interior,Lickable Wallpaper,Second Class,5,1344.8,306.03872304007547,411.5119979041009,28,560.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Lickable Wallpaper,Standard Class,8,1228.25,362.42979615762437,338.0378971495691,30,600.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Wonka Gum,First Class,9,1271.6666666666667,365.62617521178646,528.6549603998924,38,47.5,52.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Wonka Gum,Same Day,2,1452.0,258.8010819142764,222.95646031567156,9,11.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Wonka Gum,Second Class,4,1090.0,210.73680267100957,592.6742013229084,17,21.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Interior,Wonka Gum,Standard Class,14,1274.0714285714287,287.0168754850259,396.9861158649531,48,60.0,52.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Everlasting Gobstopper,First Class,1,1270.0,0.0,793.811437064646,6,60.0,80.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Pacific,Lickable Wallpaper,First Class,8,1226.0,234.05860072090616,1410.02059594829,31,620.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Lickable Wallpaper,Same Day,1,904.0,0.0,1602.7425364211824,2,40.0,50.0,2,Consistently Slow Route (Severe Bottleneck)
+Secret Factory,Pacific,Lickable Wallpaper,Second Class,6,1515.5,189.39033766272243,1596.0526518830065,30,600.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Lickable Wallpaper,Standard Class,19,1293.842105263158,285.105489864501,1449.1013929725566,83,1660.0,50.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Wonka Gum,First Class,6,1393.3333333333333,298.6748510783368,1425.4744621106402,13,16.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Wonka Gum,Same Day,3,1269.6666666666667,365.5001139990702,1120.403982575074,14,17.5,52.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Wonka Gum,Second Class,8,1363.625,257.9445884570671,1493.2027382907822,25,31.25,52.0,0,Congested High-Volume Lane
+Secret Factory,Pacific,Wonka Gum,Standard Class,11,1241.0,303.53484149270247,1468.1325996592134,25,31.25,52.0,0,Congested High-Volume Lane
+Sugar Shack,Atlantic,Fizzy Lifting Drinks,First Class,1,1637.0,0.0,1109.0323774620808,4,15.0,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,Fizzy Lifting Drinks,Standard Class,1,1274.0,0.0,1067.802471033257,5,18.75,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,Fun Dip,Standard Class,1,1275.0,0.0,1109.0323774620808,4,6.0,40.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,Laffy Taffy,First Class,1,1271.0,0.0,1109.0323774620808,1,1.99,62.311557788944725,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,Laffy Taffy,Same Day,1,1635.0,0.0,850.0377755885796,4,7.96,62.311557788944725,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,Laffy Taffy,Standard Class,4,1457.75,212.17818769452563,1149.7367410992572,9,17.91,62.311557788944725,0,Congested High-Volume Lane
+Sugar Shack,Atlantic,Nerds,Standard Class,4,1274.0,422.0434416818566,1098.724900854875,10,15.0,46.666666666666664,0,Congested High-Volume Lane
+Sugar Shack,Atlantic,SweeTARTS,Second Class,1,1640.0,0.0,1109.0323774620808,5,7.5,46.666666666666664,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Atlantic,SweeTARTS,Standard Class,4,1274.5,298.0229297665981,1107.8919282659022,19,28.5,46.666666666666664,0,Congested High-Volume Lane
+Sugar Shack,Gulf,Fizzy Lifting Drinks,Standard Class,1,909.0,0.0,1606.6772633841945,4,15.0,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Gulf,Fun Dip,Second Class,1,1272.0,0.0,982.4058261468219,1,1.5,40.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Gulf,Laffy Taffy,Standard Class,2,1092.0,258.8010819142764,1606.6772633841945,11,21.89,62.311557788944725,0,Congested High-Volume Lane
+Sugar Shack,Interior,Fizzy Lifting Drinks,First Class,1,907.0,0.0,643.6147664235317,2,7.5,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Interior,Fizzy Lifting Drinks,Standard Class,1,1640.0,0.0,651.041948066704,3,11.25,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Interior,Fun Dip,Second Class,1,1271.0,0.0,643.6147664235317,3,4.5,40.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Interior,Laffy Taffy,First Class,1,1272.0,0.0,651.041948066704,1,1.99,62.311557788944725,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Interior,SweeTARTS,Second Class,1,1272.0,0.0,1181.3099360290112,2,3.0,46.666666666666664,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Interior,SweeTARTS,Standard Class,3,1395.6666666666667,212.46489906178226,1004.5539400415755,11,16.5,46.666666666666664,0,Congested High-Volume Lane
+Sugar Shack,Pacific,Fizzy Lifting Drinks,Standard Class,1,1274.0,0.0,1268.7862890197378,3,11.25,60.0,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Pacific,Laffy Taffy,Standard Class,1,1638.0,0.0,1171.297257922191,1,1.99,62.311557788944725,2,Consistently Slow Route (Severe Bottleneck)
+Sugar Shack,Pacific,SweeTARTS,Second Class,1,1638.0,0.0,1452.893497350995,4,6.0,46.666666666666664,2,Consistently Slow Route (Severe Bottleneck)
+The Other Factory,Atlantic,Hair Toffee,Standard Class,1,1639.0,0.0,943.7070243196735,5,22.5,77.77777777777779,2,Consistently Slow Route (Severe Bottleneck)
+The Other Factory,Atlantic,Kazookles,First Class,5,1271.6,258.09455631609126,833.6579072162909,24,78.0,7.692307692307692,3,Fast Regional Corridor
+The Other Factory,Atlantic,Kazookles,Same Day,2,1269.0,0.0,867.4249012276905,6,19.5,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Atlantic,Kazookles,Second Class,8,1180.5,259.2064814004464,960.1608039101432,34,110.5,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Atlantic,Kazookles,Standard Class,22,1307.5,274.411881944607,899.7446443116152,85,276.25,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Gulf,Hair Toffee,Same Day,1,1635.0,0.0,573.5041386993006,2,9.0,77.77777777777779,2,Consistently Slow Route (Severe Bottleneck)
+The Other Factory,Gulf,Kazookles,First Class,4,1180.75,350.15746457843795,607.9953752183816,13,42.25,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Gulf,Kazookles,Same Day,2,1086.5,258.0939751330898,511.9532079713329,9,29.25,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Gulf,Kazookles,Second Class,3,1150.3333333333333,210.73522091319558,334.942743842374,8,26.0,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Gulf,Kazookles,Standard Class,9,1355.3333333333333,243.62727679798093,411.96954701404553,48,156.0,7.692307692307692,3,Fast Regional Corridor
+The Other Factory,Interior,Kazookles,First Class,2,1272.0,517.6021638285528,521.2717840255267,7,22.75,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Interior,Kazookles,Second Class,2,1272.0,517.6021638285528,521.2717840255267,6,19.5,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Interior,Kazookles,Standard Class,7,1169.2857142857142,178.1522890541632,465.04353124029524,26,84.5,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Pacific,Hair Toffee,First Class,1,1272.0,0.0,1224.487831680595,5,22.5,77.77777777777779,2,Consistently Slow Route (Severe Bottleneck)
+The Other Factory,Pacific,Hair Toffee,Standard Class,1,1275.0,0.0,1663.7255390152943,5,22.5,77.77777777777779,2,Consistently Slow Route (Severe Bottleneck)
+The Other Factory,Pacific,Kazookles,First Class,5,1418.0,200.8332641770282,1662.3015146875518,15,48.75,7.692307692307692,3,Fast Regional Corridor
+The Other Factory,Pacific,Kazookles,Same Day,2,1452.0,258.8010819142764,1663.7255390152943,7,22.75,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Pacific,Kazookles,Second Class,8,1409.0,272.4581226013064,1529.9580937178393,30,97.5,7.6923076923076925,3,Fast Regional Corridor
+The Other Factory,Pacific,Kazookles,Standard Class,15,1201.2,247.06193555462974,1655.3907940164738,53,172.25,7.6923076923076925,3,Fast Regional Corridor
+Wicked Choccy's,Atlantic,Wonka Bar - Milk Chocolate,First Class,84,1297.4880952380952,225.4564042514981,698.2849660144673,261,848.25,64.92307692307693,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Milk Chocolate,Same Day,37,1298.837837837838,234.04730214133983,688.0248683243927,153,497.25,64.92307692307692,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Milk Chocolate,Second Class,105,1335.2095238095237,223.5959480521685,702.5292113983063,372,1209.0,64.92307692307692,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Milk Chocolate,Standard Class,413,1306.084745762712,262.7218804935066,780.0068220576676,1550,5037.5,64.92307692307692,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Atlantic,Wonka Bar - Triple Dazzle Caramel,First Class,88,1354.6363636363637,258.56759190205383,700.2136081414084,323,1211.25,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Triple Dazzle Caramel,Same Day,27,1215.0740740740741,242.03526855619873,669.637381807219,107,401.25,65.33333333333333,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Triple Dazzle Caramel,Second Class,122,1323.3524590163934,279.46125626682823,727.1151697237452,484,1815.0,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Atlantic,Wonka Bar - Triple Dazzle Caramel,Standard Class,321,1324.2772585669782,255.17859140700062,700.050747139271,1172,4395.0,65.33333333333333,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Gulf,Wonka Bar - Milk Chocolate,First Class,58,1309.2931034482758,253.24345187292693,370.5771599233932,188,611.0,64.92307692307693,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Milk Chocolate,Same Day,15,1171.8,257.1192608221218,295.40924850897125,66,214.5,64.92307692307693,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Milk Chocolate,Second Class,69,1299.0,275.51155628586406,357.35815830601166,320,1040.0,64.92307692307692,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Milk Chocolate,Standard Class,191,1289.7068062827225,264.6741152232691,354.46010535811723,782,2541.5,64.92307692307693,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Triple Dazzle Caramel,First Class,41,1324.8048780487804,277.66240468527553,356.90592694047746,152,570.0,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Triple Dazzle Caramel,Same Day,15,1293.5333333333333,217.00719759842957,272.9109648701291,44,165.0,65.33333333333333,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Triple Dazzle Caramel,Second Class,61,1302.3934426229507,285.64869325149067,334.09135387746096,242,907.5,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Gulf,Wonka Bar - Triple Dazzle Caramel,Standard Class,213,1339.413145539906,242.3571320366317,347.6572987587733,785,2943.75,65.33333333333333,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Milk Chocolate,First Class,72,1357.7916666666667,284.2897221616718,906.8041399343219,261,848.25,64.92307692307693,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Milk Chocolate,Same Day,25,1342.4,279.2098971502741,914.9054963181126,78,253.5,64.92307692307692,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Milk Chocolate,Second Class,96,1326.2083333333333,259.6401930067092,872.557719844701,379,1231.75,64.92307692307692,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Milk Chocolate,Standard Class,306,1326.862745098039,266.12945349464337,868.215007412615,1151,3740.75,64.92307692307692,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Interior,Wonka Bar - Triple Dazzle Caramel,First Class,52,1363.0384615384614,297.1602170044566,914.2857813828416,201,753.75,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Triple Dazzle Caramel,Same Day,28,1399.892857142857,248.0579889320557,882.5286247211837,89,333.75,65.33333333333334,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Triple Dazzle Caramel,Second Class,81,1331.20987654321,248.02916744051413,893.7000603994117,325,1218.75,65.33333333333333,0,Congested High-Volume Lane
+Wicked Choccy's,Interior,Wonka Bar - Triple Dazzle Caramel,Standard Class,290,1295.7379310344827,263.3358275507325,878.9207027565166,1077,4038.75,65.33333333333334,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Milk Chocolate,First Class,99,1352.7373737373737,269.0262329162606,2141.377207182089,375,1218.75,64.92307692307692,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Milk Chocolate,Same Day,31,1304.8064516129032,272.9218959525282,2179.798796999972,109,354.25,64.92307692307693,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Milk Chocolate,Second Class,133,1344.045112781955,271.68282712655883,2160.5544480639173,549,1784.25,64.92307692307692,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Milk Chocolate,Standard Class,403,1315.1464019851117,272.9160221204627,2127.097506105976,1673,5437.25,64.92307692307692,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Triple Dazzle Caramel,First Class,96,1347.53125,270.0274041892004,2081.9292884785245,370,1387.5,65.33333333333333,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Triple Dazzle Caramel,Same Day,45,1407.4888888888888,261.9627508411888,2166.138008952987,185,693.75,65.33333333333333,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Triple Dazzle Caramel,Second Class,123,1346.6747967479675,260.3989214532497,2160.176779205432,460,1725.0,65.33333333333333,1,Consistently Slow Route (Severe Bottleneck)
+Wicked Choccy's,Pacific,Wonka Bar - Triple Dazzle Caramel,Standard Class,412,1315.9733009708739,257.2952080839162,2164.562361523272,1580,5925.0,65.33333333333334,1,Consistently Slow Route (Severe Bottleneck)
