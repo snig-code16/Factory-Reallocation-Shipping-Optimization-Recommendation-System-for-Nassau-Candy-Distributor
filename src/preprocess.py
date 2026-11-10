@@ -28,10 +28,17 @@ def haversine_distance(lat1, lon1, lat2, lon2):
 
 def load_and_preprocess(filepath="data/Nassau_Candy_Distributor.csv"):
     if not os.path.exists(filepath):
-        if os.path.exists("Nassau_Candy_Distributor.csv"):
-            filepath = "Nassau_Candy_Distributor.csv"
-        elif os.path.exists("../data/Nassau_Candy_Distributor.csv"):
-            filepath = "../data/Nassau_Candy_Distributor.csv"
+        candidates = [
+            os.path.join(PROJECT_ROOT, "data", "Nassau_Candy_Distributor.csv"),
+            os.path.join(PROJECT_ROOT, "Nassau_Candy_Distributor.csv"),
+            "Nassau_Candy_Distributor.csv",
+            "data/Nassau_Candy_Distributor.csv",
+            "../data/Nassau_Candy_Distributor.csv",
+        ]
+        for candidate in candidates:
+            if os.path.exists(candidate):
+                filepath = candidate
+                break
 
     df = pd.read_csv(filepath)
     df.columns = [c.strip() for c in df.columns]

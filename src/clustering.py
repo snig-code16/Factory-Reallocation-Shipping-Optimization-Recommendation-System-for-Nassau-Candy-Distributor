@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from src.preprocess import load_and_preprocess
 
-MODELS_DIR = "models"
+MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
 
 def perform_route_clustering(df=None, n_clusters=4, random_state=42):
     if df is None:

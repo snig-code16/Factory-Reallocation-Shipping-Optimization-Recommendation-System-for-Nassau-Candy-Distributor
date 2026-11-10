@@ -6,15 +6,15 @@ if PROJECT_ROOT not in sys.path:
 from src.config import FACTORY_COORDS, PRODUCT_FACTORY, REGION_COORDS, PRODUCT_DIVISION, FACTORY_DETAILS
 from src.preprocess import haversine_distance
 
-MODELS_DIR = "models"
+MODELS_DIR = os.path.join(PROJECT_ROOT, "models")
 BASE_FREIGHT_COST_PER_MILE_UNIT = 0.0015
 
 class SimulationEngine:
-    def __init__(self, models_dir=MODELS_DIR):
-        self.models_dir = models_dir
-        self.model = joblib.load(os.path.join(models_dir, "best_model.pkl"))
-        self.encoders = joblib.load(os.path.join(models_dir, "encoders.pkl"))
-        self.feature_cols = joblib.load(os.path.join(models_dir, "feature_cols.pkl"))
+    def __init__(self, models_dir=None):
+        self.models_dir = models_dir if models_dir is not None else MODELS_DIR
+        self.model = joblib.load(os.path.join(self.models_dir, "best_model.pkl"))
+        self.encoders = joblib.load(os.path.join(self.models_dir, "encoders.pkl"))
+        self.feature_cols = joblib.load(os.path.join(self.models_dir, "feature_cols.pkl"))
 
     def _encode_val(self, column, value):
         le = self.encoders[column]
